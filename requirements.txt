@@ -1,7 +1,7 @@
 streamlit
 langchain
-langchain-community
 langchain-google-genai
+langchain-community
 cassio
 gtts
 sentence-transformers==2.2.2
@@ -9,3 +9,5 @@ python-dotenv
 google-cloud
 transformers
 requests
+torch==1.13.1
+huggingface_hub==0.8.1
