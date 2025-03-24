@@ -1,3 +1,4 @@
+pip install --upgrade pip
 import os
 import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
