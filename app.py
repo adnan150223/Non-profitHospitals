@@ -2,6 +2,8 @@ import os
 import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.vectorstores.cassandra import Cassandra
+# Replace the old import with the new one
+from langchain_community.vectorstores import Cassandra
 from langchain.indexes.vectorstore import VectorStoreIndexWrapper
 import cassio
 from dotenv import load_dotenv
